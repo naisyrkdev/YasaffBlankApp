@@ -1,0 +1,11 @@
+[package]
+name = "blank-app"
+version = "0.1.0"
+edition = "2024"
+description = "An empty YASAFF app: a window held inside YASAFF with only a Quit button, to start new apps from"
+license = "MIT"
+
+[dependencies]
+eframe = "0.36.2"
+egui = "0.36.2"
+gilrs = "0.11.2"
