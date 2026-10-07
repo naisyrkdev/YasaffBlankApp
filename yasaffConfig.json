@@ -1,0 +1,19 @@
+{
+  "yasaff": "app",
+  "formatVersion": 1,
+  "id": "blank-app",
+  "name": "Blank App",
+  "version": "1.0.0",
+  "kind": "app",
+  "author": "naisyrkdev",
+  "summary": "An empty app with only a Quit button",
+  "description": "A starting point for new YASAFF apps: a window held inside YASAFF that does nothing yet.\n\nPress B (or Esc, or click Quit) to go back to YASAFF.",
+  "icon": "assets/icon.png",
+  "background": "assets/background.png",
+  "run": {
+    "linux": { "command": "bin/linux/blank-app" }
+  },
+  "install": {
+    "executables": ["bin/linux/blank-app"]
+  }
+}
